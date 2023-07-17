@@ -468,7 +468,7 @@ a{
 .gallery .box .image:hover::after{
     animation: flash 0.5s linear forwards;
 }
-.gallery .box img:hover{
+.gallery .box .image:hover img{
     transform: rotate(5deg) scale(1.1);
 }
 @keyframes flash{
